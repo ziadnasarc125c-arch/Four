@@ -367,3 +367,12 @@ body {
     from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
     to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 }
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .wooden-board { width: 90%; padding: 30px 20px; }
+    .camp-header h2 { font-size: 2.2rem; }
+    .welcome-wild { font-size: 2rem; white-space: normal; text-align: center; }
+    .path-tabs { flex-direction: column; gap: 10px; border: none; }
+    .tab-btn { text-align: center; }
+}
